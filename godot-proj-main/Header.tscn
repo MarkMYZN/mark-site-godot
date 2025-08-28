@@ -1,0 +1,92 @@
+[gd_scene load_steps=7 format=3 uid="uid://cwya083v47fem"]
+
+[ext_resource type="Script" uid="uid://cimbknxu6d8r2" path="res://Scripts/home.gd" id="1_7gx8h"]
+[ext_resource type="Script" uid="uid://cbg606og4w5vg" path="res://Scripts/about.gd" id="2_asbxr"]
+[ext_resource type="Script" uid="uid://dnnru234bjso6" path="res://Scripts/skills.gd" id="3_0xk0r"]
+[ext_resource type="Script" uid="uid://bh8vx8fn68atf" path="res://Scripts/recommendations.gd" id="4_ubib4"]
+[ext_resource type="Script" uid="uid://bdpxj27qud2m1" path="res://Scripts/contact.gd" id="5_7gx8h"]
+[ext_resource type="Script" uid="uid://d1cv3sm6hqm71" path="res://Scripts/credits.gd" id="6_asbxr"]
+
+[node name="Header" type="ColorRect"]
+anchors_preset = -1
+offset_right = 1920.0
+offset_bottom = 72.0
+color = Color(0.15686275, 0.16862746, 0.1882353, 1)
+
+[node name="Home" type="Button" parent="."]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 8.0
+offset_right = 256.0
+offset_bottom = 64.0
+theme_type_variation = &"FlatButton"
+theme_override_font_sizes/font_size = 30
+text = "MarkCS"
+script = ExtResource("1_7gx8h")
+
+[node name="About" type="Button" parent="."]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 8.0
+offset_right = 704.0
+offset_bottom = 64.0
+theme_type_variation = &"FlatButton"
+theme_override_font_sizes/font_size = 30
+text = "About"
+script = ExtResource("2_asbxr")
+
+[node name="Skills" type="Button" parent="."]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 8.0
+offset_right = 896.0
+offset_bottom = 64.0
+theme_type_variation = &"FlatButton"
+theme_override_font_sizes/font_size = 30
+text = "Skills"
+script = ExtResource("3_0xk0r")
+
+[node name="Recommendations" type="Button" parent="."]
+layout_mode = 0
+offset_left = 960.0
+offset_top = 8.0
+offset_right = 1280.0
+offset_bottom = 64.0
+theme_type_variation = &"FlatButton"
+theme_override_font_sizes/font_size = 30
+text = "Recommendations"
+script = ExtResource("4_ubib4")
+
+[node name="Contact" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1712.0
+offset_top = 8.0
+offset_right = 1904.0
+offset_bottom = 64.0
+theme_override_colors/font_color = Color(0.875, 0.875, 0.875, 1)
+theme_override_colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+theme_override_font_sizes/font_size = 30
+text = "Contact Me!"
+script = ExtResource("5_7gx8h")
+
+[node name="Credits" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1344.0
+offset_top = 8.0
+offset_right = 1455.0
+offset_bottom = 64.0
+theme_type_variation = &"FlatButton"
+theme_override_font_sizes/font_size = 30
+text = "Credits"
+script = ExtResource("6_asbxr")

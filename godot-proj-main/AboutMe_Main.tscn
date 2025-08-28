@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5brio8644qxf"]
+
+[ext_resource type="PackedScene" uid="uid://s764ik6u3oan" path="res://Aboutme1.1.tscn" id="1_6dq0r"]
+[ext_resource type="PackedScene" uid="uid://bkscl6q65l67n" path="res://Aboutme1.2.tscn" id="2_847k5"]
+[ext_resource type="PackedScene" uid="uid://dfvj7g14viqu" path="res://Aboutme_2.tscn" id="2_arpcg"]
+[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Header.tscn" id="3_arpcg"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="."]
+custom_minimum_size = Vector2(1920, 1080)
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer2"]
+custom_minimum_size = Vector2(1920, 1080)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Aboutme1" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("1_6dq0r")]
+custom_minimum_size = Vector2(0, 750)
+layout_mode = 2
+
+[node name="Aboutme_2" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("2_arpcg")]
+custom_minimum_size = Vector2(0, 1080)
+layout_mode = 2
+
+[node name="workethic" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("2_847k5")]
+custom_minimum_size = Vector2(0, 750)
+layout_mode = 2
+
+[node name="Header" parent="." instance=ExtResource("3_arpcg")]
+layout_mode = 0
+anchors_preset = 0
