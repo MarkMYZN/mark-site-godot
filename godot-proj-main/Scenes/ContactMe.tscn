@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dffakuuu2dq3s" path="res://Textures/logos/social logos/facebook.png" id="3_8deuv"]
 [ext_resource type="Script" uid="uid://chnedppk546h5" path="res://Scripts/facebook.gd" id="4_0harh"]
 [ext_resource type="Texture2D" uid="uid://b3m1vo6qb271x" path="res://Textures/logos/social logos/faded social logos/facebook_f.png" id="4_iqq2v"]
-[ext_resource type="Texture2D" uid="uid://bcye1eqvbbith" path="res://resume.png" id="4_qnorn"]
+[ext_resource type="Texture2D" uid="uid://bcye1eqvbbith" path="res://Textures/logos/social logos/resume.png" id="4_qnorn"]
 [ext_resource type="Texture2D" uid="uid://65p530wcicdb" path="res://Textures/logos/social logos/reddit.png" id="5_46s1k"]
 [ext_resource type="Texture2D" uid="uid://c3otsytggp62f" path="res://Textures/logos/social logos/github.png" id="5_qnorn"]
 [ext_resource type="Script" uid="uid://ccl1y853u8tkk" path="res://Scripts/reddit.gd" id="6_heymb"]
