@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bfbwk005aksxe"]
+[gd_scene load_steps=20 format=3 uid="uid://bfbwk005aksxe"]
 
 [ext_resource type="StyleBox" uid="uid://d3sqyq54e13ik" path="res://Textures/bg.tres" id="1_ibcpa"]
 [ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Scenes/Header.tscn" id="2_a0k3b"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://coxjvhmteuhsx" path="res://Textures/logos/social logos/faded social logos/reddit_f.png" id="7_ff0ne"]
 [ext_resource type="Texture2D" uid="uid://uxa2ohup6gi" path="res://Textures/logos/social logos/faded social logos/github_f.png" id="10_hffmy"]
 [ext_resource type="Texture2D" uid="uid://dc2h2cm2s31a5" path="res://Textures/logos/social logos/faded social logos/resume_f.png" id="13_ff0ne"]
+[ext_resource type="Script" uid="uid://drn6x6sxfcd1e" path="res://Scripts/resume.gd" id="14_ff0ne"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ibcpa"]
 bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
@@ -189,3 +190,4 @@ texture_normal = ExtResource("4_qnorn")
 texture_pressed = ExtResource("13_ff0ne")
 ignore_texture_size = true
 stretch_mode = 5
+script = ExtResource("14_ff0ne")
