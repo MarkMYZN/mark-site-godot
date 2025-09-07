@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcye1eqvbbith"
-path="res://.godot/imported/resume.png-0e46bf1bf18a4d752ecb0ae738a7ddc8.ctex"
+uid="uid://uxa2ohup6gi"
+path="res://.godot/imported/github_f.png-22ff42ac33e04bf68b7db314cf3709f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/resume.png"
-dest_files=["res://.godot/imported/resume.png-0e46bf1bf18a4d752ecb0ae738a7ddc8.ctex"]
+source_file="res://Textures/logos/social logos/faded social logos/github_f.png"
+dest_files=["res://.godot/imported/github_f.png-22ff42ac33e04bf68b7db314cf3709f9.ctex"]
 
 [params]
 

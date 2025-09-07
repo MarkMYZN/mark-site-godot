@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baj1durjsyxms"
-path="res://.godot/imported/gmail.png-7b9c808b1c6b812277bf283a1e3f71ef.ctex"
+uid="uid://b3m1vo6qb271x"
+path="res://.godot/imported/facebook_f.png-c43fdf6673f2265a70ccf886e27b83b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/logos/social logos/gmail.png"
-dest_files=["res://.godot/imported/gmail.png-7b9c808b1c6b812277bf283a1e3f71ef.ctex"]
+source_file="res://Textures/logos/social logos/faded social logos/facebook_f.png"
+dest_files=["res://.godot/imported/facebook_f.png-c43fdf6673f2265a70ccf886e27b83b0.ctex"]
 
 [params]
 
