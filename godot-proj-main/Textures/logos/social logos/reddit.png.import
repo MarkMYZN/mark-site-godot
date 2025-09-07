@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baj1durjsyxms"
-path="res://.godot/imported/gmail.png-7b9c808b1c6b812277bf283a1e3f71ef.ctex"
+uid="uid://bd1dricg5x03j"
+path="res://.godot/imported/reddit.png-e779c05d9eeb46628b41c6d4349ae70d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/logos/social logos/gmail.png"
-dest_files=["res://.godot/imported/gmail.png-7b9c808b1c6b812277bf283a1e3f71ef.ctex"]
+source_file="res://Textures/logos/social logos/reddit.png"
+dest_files=["res://.godot/imported/reddit.png-e779c05d9eeb46628b41c6d4349ae70d.ctex"]
 
 [params]
 

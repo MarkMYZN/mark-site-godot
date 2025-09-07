@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://c5brio8644qxf"]
 
-[ext_resource type="PackedScene" uid="uid://s764ik6u3oan" path="res://Aboutme1.1.tscn" id="1_6dq0r"]
-[ext_resource type="PackedScene" uid="uid://bkscl6q65l67n" path="res://Aboutme1.2.tscn" id="2_847k5"]
-[ext_resource type="PackedScene" uid="uid://dfvj7g14viqu" path="res://Aboutme_2.tscn" id="2_arpcg"]
-[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Header.tscn" id="3_arpcg"]
+[ext_resource type="PackedScene" uid="uid://s764ik6u3oan" path="res://Scenes/Aboutme1.1.tscn" id="1_6dq0r"]
+[ext_resource type="PackedScene" uid="uid://bkscl6q65l67n" path="res://Scenes/Aboutme1.2.tscn" id="2_847k5"]
+[ext_resource type="PackedScene" uid="uid://dfvj7g14viqu" path="res://Scenes/Aboutme_2.tscn" id="2_arpcg"]
+[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Scenes/Header.tscn" id="3_arpcg"]
 
 [node name="Control" type="Control"]
 layout_mode = 3

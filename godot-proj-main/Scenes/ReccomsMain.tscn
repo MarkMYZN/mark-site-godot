@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://bh0yml860ksu2"]
 
-[ext_resource type="PackedScene" uid="uid://cwhr2s7h1eu3k" path="res://Reccoms1.tscn" id="1_c736i"]
-[ext_resource type="PackedScene" uid="uid://dgmykbchsc48k" path="res://Reccoms2.tscn" id="2_wm4cd"]
-[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Header.tscn" id="3_wm4cd"]
+[ext_resource type="PackedScene" uid="uid://cwhr2s7h1eu3k" path="res://Scenes/Reccoms1.tscn" id="1_c736i"]
+[ext_resource type="PackedScene" uid="uid://dgmykbchsc48k" path="res://Scenes/Reccoms2.tscn" id="2_wm4cd"]
+[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Scenes/Header.tscn" id="3_wm4cd"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uspb2"]
 content_margin_left = 0.0

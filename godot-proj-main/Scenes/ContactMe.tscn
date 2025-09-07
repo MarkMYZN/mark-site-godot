@@ -1,11 +1,15 @@
-[gd_scene load_steps=12 format=3 uid="uid://bfbwk005aksxe"]
+[gd_scene load_steps=16 format=3 uid="uid://bfbwk005aksxe"]
 
 [ext_resource type="StyleBox" uid="uid://d3sqyq54e13ik" path="res://Textures/bg.tres" id="1_ibcpa"]
-[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Header.tscn" id="2_a0k3b"]
+[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Scenes/Header.tscn" id="2_a0k3b"]
 [ext_resource type="Texture2D" uid="uid://dffakuuu2dq3s" path="res://Textures/logos/social logos/facebook.png" id="3_8deuv"]
+[ext_resource type="Script" uid="uid://noa8on43jnji" path="res://Scripts/facebook.gd" id="4_0harh"]
 [ext_resource type="Texture2D" uid="uid://bcye1eqvbbith" path="res://Textures/resume.png" id="4_qnorn"]
-[ext_resource type="Texture2D" uid="uid://baj1durjsyxms" path="res://Textures/logos/social logos/gmail.png" id="4_yqbht"]
+[ext_resource type="Texture2D" uid="uid://bd1dricg5x03j" path="res://Textures/logos/social logos/reddit.png" id="5_46s1k"]
 [ext_resource type="Texture2D" uid="uid://c3otsytggp62f" path="res://Textures/logos/social logos/github.png" id="5_qnorn"]
+[ext_resource type="Script" uid="uid://d4ax1w7co5ehs" path="res://Scenes/reddit.gd" id="6_46s1k"]
+[ext_resource type="Script" uid="uid://u2iq0twac6vf" path="res://Scenes/github.gd" id="7_bjqpu"]
+[ext_resource type="Script" uid="uid://vhnkqhbq1ei3" path="res://Scenes/resume.gd" id="10_heymb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ibcpa"]
 bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
@@ -91,11 +95,11 @@ layout_mode = 1
 anchors_preset = -1
 offset_left = 440.0
 offset_top = 568.0
-offset_right = 938.0
+offset_right = 782.0
 offset_bottom = 709.0
 theme_override_font_sizes/font_size = 50
-text = "Gmail:
-markopsec.dev.main@gmail.com"
+text = "Reddit:
+u/Mark_MYZN"
 label_settings = SubResource("LabelSettings_8sejj")
 
 [node name="Label7" type="Label" parent="."]
@@ -120,17 +124,19 @@ tooltip_text = "Click the icon to go to link"
 texture_normal = ExtResource("3_8deuv")
 ignore_texture_size = true
 stretch_mode = 0
+script = ExtResource("4_0harh")
 
-[node name="gmail" type="TextureButton" parent="."]
+[node name="reddit" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 192.0
 offset_top = 528.0
 offset_right = 384.0
 offset_bottom = 720.0
 tooltip_text = "Click the icon to go to link"
-texture_normal = ExtResource("4_yqbht")
+texture_normal = ExtResource("5_46s1k")
 ignore_texture_size = true
 stretch_mode = 4
+script = ExtResource("6_46s1k")
 
 [node name="github" type="TextureButton" parent="."]
 layout_mode = 0
@@ -142,6 +148,7 @@ tooltip_text = "Click the icon to go to link"
 texture_normal = ExtResource("5_qnorn")
 ignore_texture_size = true
 stretch_mode = 4
+script = ExtResource("7_bjqpu")
 
 [node name="Panel3" type="Panel" parent="."]
 layout_mode = 1
@@ -151,7 +158,6 @@ offset_top = 320.0
 offset_right = 1728.0
 offset_bottom = 552.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_yqbht")
-metadata/_edit_group_ = true
 
 [node name="Label4" type="Label" parent="."]
 layout_mode = 1
@@ -164,7 +170,6 @@ theme_override_font_sizes/font_size = 50
 text = "Download My Resume here!"
 label_settings = SubResource("LabelSettings_8bdn6")
 horizontal_alignment = 1
-metadata/_edit_group_ = true
 
 [node name="resume" type="TextureButton" parent="."]
 layout_mode = 1
@@ -177,4 +182,4 @@ tooltip_text = "Click the icon to go to link"
 texture_normal = ExtResource("4_qnorn")
 ignore_texture_size = true
 stretch_mode = 5
-metadata/_edit_group_ = true
+script = ExtResource("10_heymb")
