@@ -55,43 +55,48 @@ layout_mode = 2
 size_flags_vertical = 3
 alignment = 1
 
+[node name="Aboutme1_1" type="Panel" parent="ScrollContainer2/VBoxContainer"]
+custom_minimum_size = Vector2(1920, 70)
+layout_mode = 2
+theme_override_styles/panel = ExtResource("4_clnb8")
+
 [node name="#1" type="Control" parent="ScrollContainer2/VBoxContainer"]
 custom_minimum_size = Vector2(0, 704)
 layout_mode = 2
 
-[node name="Aboutme1_1" type="Panel" parent="ScrollContainer2/VBoxContainer/#1"]
+[node name="Aboutme1_2" type="Panel" parent="ScrollContainer2/VBoxContainer/#1"]
 layout_mode = 0
 offset_right = 1920.0
-offset_bottom = 832.0
+offset_bottom = 772.0
 theme_override_styles/panel = ExtResource("4_clnb8")
 
-[node name="Label3" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_1"]
+[node name="Label3" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_2"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 368.0
-offset_top = 176.0
+offset_top = 96.0
 offset_right = 1560.0
-offset_bottom = 248.0
+offset_bottom = 168.0
 theme_override_font_sizes/font_size = 50
 text = "About Me"
 horizontal_alignment = 1
 
-[node name="Panel" type="Panel" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_1"]
+[node name="Panel" type="Panel" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_2"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 136.0
-offset_top = 272.0
+offset_top = 192.0
 offset_right = 1800.0
-offset_bottom = 720.0
+offset_bottom = 640.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_kb265")
 
-[node name="Label4" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_1"]
+[node name="Label4" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_2"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 160.0
-offset_top = 288.0
+offset_top = 208.0
 offset_right = 1776.0
-offset_bottom = 691.0
+offset_bottom = 611.0
 theme_override_font_sizes/font_size = 50
 text = "I’m a 20-year-old Computer Science student with a strong passion for problem-solving and programming. I started with C/C++ and later expanded my skills to React, Java, JavaScript, CSS, MySQL, and Python. To push myself further, I even built a full web app using Godot, proving it can be used beyond game development.
 
