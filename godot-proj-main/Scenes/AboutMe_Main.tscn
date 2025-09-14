@@ -1,17 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://c5brio8644qxf"]
+[gd_scene load_steps=7 format=3 uid="uid://c5brio8644qxf"]
 
 [ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Scenes/Header.tscn" id="3_arpcg"]
 [ext_resource type="StyleBox" uid="uid://d3sqyq54e13ik" path="res://Textures/bg.tres" id="4_clnb8"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kb265"]
-bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
-corner_radius_top_left = 10
-corner_radius_top_right = 10
-corner_radius_bottom_right = 10
-corner_radius_bottom_left = 10
-
-[sub_resource type="LabelSettings" id="LabelSettings_s8f2n"]
-font_size = 40
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s8f2n"]
 bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
@@ -64,44 +54,44 @@ theme_override_styles/panel = ExtResource("4_clnb8")
 custom_minimum_size = Vector2(0, 704)
 layout_mode = 2
 
-[node name="Aboutme1_2" type="Panel" parent="ScrollContainer2/VBoxContainer/#1"]
+[node name="Panel" type="Panel" parent="ScrollContainer2/VBoxContainer/#1"]
 layout_mode = 0
 offset_right = 1920.0
-offset_bottom = 772.0
+offset_bottom = 708.0
 theme_override_styles/panel = ExtResource("4_clnb8")
 
-[node name="Label3" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_2"]
+[node name="Label5" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Panel"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 368.0
-offset_top = 96.0
+offset_top = 92.0
 offset_right = 1560.0
-offset_bottom = 168.0
+offset_bottom = 164.0
 theme_override_font_sizes/font_size = 50
-text = "About Me"
+text = "About me"
 horizontal_alignment = 1
 
-[node name="Panel" type="Panel" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_2"]
+[node name="Panel3" type="Panel" parent="ScrollContainer2/VBoxContainer/#1/Panel"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 136.0
-offset_top = 192.0
+offset_top = 204.0
 offset_right = 1800.0
-offset_bottom = 640.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_kb265")
+offset_bottom = 638.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_s8f2n")
 
-[node name="Label4" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_2"]
+[node name="Label6" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Panel"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 160.0
-offset_top = 208.0
-offset_right = 1776.0
-offset_bottom = 611.0
+offset_top = 204.0
+offset_right = 1792.0
+offset_bottom = 607.0
 theme_override_font_sizes/font_size = 50
 text = "I’m a 20-year-old Computer Science student with a strong passion for problem-solving and programming. I started with C/C++ and later expanded my skills to React, Java, JavaScript, CSS, MySQL, and Python. To push myself further, I even built a full web app using Godot, proving it can be used beyond game development.
 
 I currently study at STI Novaliches, after previously attending Our Lady of Fatima University. My long-term goal is to apply my skills as part of a cybersecurity team."
-label_settings = SubResource("LabelSettings_s8f2n")
+label_settings = SubResource("LabelSettings_a812q")
 autowrap_mode = 3
 
 [node name="#2" type="Control" parent="ScrollContainer2/VBoxContainer"]
