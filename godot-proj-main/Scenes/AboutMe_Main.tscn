@@ -15,6 +15,7 @@ grow_vertical = 2
 
 [node name="ScrollContainer2" type="ScrollContainer" parent="."]
 clip_contents = false
+custom_minimum_size = Vector2(1920, 1080)
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
@@ -26,15 +27,15 @@ size_flags_vertical = 3
 alignment = 1
 
 [node name="Aboutme1" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("1_6dq0r")]
-custom_minimum_size = Vector2(0, 680)
+custom_minimum_size = Vector2(0, 1080)
 layout_mode = 2
 
 [node name="Aboutme_2" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("2_arpcg")]
-custom_minimum_size = Vector2(0, 911.035)
+custom_minimum_size = Vector2(0, 1080)
 layout_mode = 2
 
 [node name="workethic" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("2_847k5")]
-custom_minimum_size = Vector2(0, 1045)
+custom_minimum_size = Vector2(0, 1080)
 layout_mode = 2
 
 [node name="Header" parent="." instance=ExtResource("3_arpcg")]
