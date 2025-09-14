@@ -48,4 +48,3 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_uspb2")
 
 [node name="Header" parent="." instance=ExtResource("3_e4ens")]
 layout_mode = 0
-anchors_preset = 0
