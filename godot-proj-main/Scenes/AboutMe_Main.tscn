@@ -62,16 +62,16 @@ layout_mode = 2
 [node name="Aboutme1_1" type="Panel" parent="ScrollContainer2/VBoxContainer/#1"]
 layout_mode = 0
 offset_right = 1920.0
-offset_bottom = 704.0
+offset_bottom = 832.0
 theme_override_styles/panel = ExtResource("4_clnb8")
 
 [node name="Label3" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_1"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 368.0
-offset_top = 96.0
+offset_top = 176.0
 offset_right = 1560.0
-offset_bottom = 168.0
+offset_bottom = 248.0
 theme_override_font_sizes/font_size = 50
 text = "About Me"
 horizontal_alignment = 1
@@ -80,18 +80,18 @@ horizontal_alignment = 1
 layout_mode = 1
 anchors_preset = -1
 offset_left = 136.0
-offset_top = 192.0
+offset_top = 272.0
 offset_right = 1800.0
-offset_bottom = 640.0
+offset_bottom = 720.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_kb265")
 
 [node name="Label4" type="Label" parent="ScrollContainer2/VBoxContainer/#1/Aboutme1_1"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 160.0
-offset_top = 208.0
+offset_top = 288.0
 offset_right = 1776.0
-offset_bottom = 611.0
+offset_bottom = 691.0
 theme_override_font_sizes/font_size = 50
 text = "I’m a 20-year-old Computer Science student with a strong passion for problem-solving and programming. I started with C/C++ and later expanded my skills to React, Java, JavaScript, CSS, MySQL, and Python. To push myself further, I even built a full web app using Godot, proving it can be used beyond game development.
 
@@ -106,16 +106,16 @@ layout_mode = 2
 [node name="Aboutme_2" type="Panel" parent="ScrollContainer2/VBoxContainer/#2"]
 layout_mode = 0
 offset_right = 1920.0
-offset_bottom = 860.025
+offset_bottom = 956.0
 theme_override_styles/panel = ExtResource("4_clnb8")
 
 [node name="Label3" type="Label" parent="ScrollContainer2/VBoxContainer/#2/Aboutme_2"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 368.0
-offset_top = 40.0
+offset_top = 64.0
 offset_right = 1560.0
-offset_bottom = 112.0
+offset_bottom = 136.0
 theme_override_font_sizes/font_size = 50
 text = "Why i Chose Computer Science as my career path"
 horizontal_alignment = 1
@@ -124,18 +124,18 @@ horizontal_alignment = 1
 layout_mode = 1
 anchors_preset = -1
 offset_left = 136.0
-offset_top = 152.0
+offset_top = 176.0
 offset_right = 1800.0
-offset_bottom = 792.0
+offset_bottom = 816.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_s8f2n")
 
 [node name="Label4" type="Label" parent="ScrollContainer2/VBoxContainer/#2/Aboutme_2"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 160.0
-offset_top = 152.0
+offset_top = 176.0
 offset_right = 1792.0
-offset_bottom = 729.0
+offset_bottom = 753.0
 theme_override_font_sizes/font_size = 50
 text = "I chose Computer Science because it is the best path toward my goal of joining a cybersecurity team. My passion for programming comes from a problem-solving mindset. I enjoy tackling challenges and exploring new possibilities, always asking, “What happens if I try this?”
 
@@ -157,9 +157,8 @@ theme_override_styles/panel = ExtResource("4_clnb8")
 layout_mode = 1
 anchors_preset = -1
 offset_left = 384.0
-offset_top = 16.0
 offset_right = 1576.0
-offset_bottom = 88.0
+offset_bottom = 72.0
 theme_override_font_sizes/font_size = 50
 text = "Work Ethic & Learning Style"
 horizontal_alignment = 1
@@ -168,18 +167,18 @@ horizontal_alignment = 1
 layout_mode = 1
 anchors_preset = -1
 offset_left = 152.0
-offset_top = 104.0
+offset_top = 88.0
 offset_right = 1816.0
-offset_bottom = 960.0
+offset_bottom = 944.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_waq7d")
 
 [node name="Label6" type="Label" parent="ScrollContainer2/VBoxContainer/#3/work ethig"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 176.0
-offset_top = 112.0
+offset_top = 96.0
 offset_right = 1792.0
-offset_bottom = 919.0
+offset_bottom = 903.0
 theme_override_font_sizes/font_size = 50
 text = "I balance both introverted and extroverted traits in my work style. At first, I prefer observing and working independently, but as I grow more comfortable, I become an energetic and collaborative team member. As a visual and kinetic learner, I thrive on learning by observing, experimenting, and doing—constantly asking, “What if I tried this?”
 
@@ -190,5 +189,5 @@ label_settings = SubResource("LabelSettings_2pc01")
 autowrap_mode = 3
 
 [node name="Header" parent="." instance=ExtResource("3_arpcg")]
+custom_minimum_size = Vector2(1920, 72)
 layout_mode = 0
-anchors_preset = 0

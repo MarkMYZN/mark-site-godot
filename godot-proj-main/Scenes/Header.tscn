@@ -8,7 +8,6 @@
 [ext_resource type="Script" uid="uid://d1cv3sm6hqm71" path="res://Scripts/credits.gd" id="6_asbxr"]
 
 [node name="Header" type="ColorRect"]
-anchors_preset = -1
 offset_right = 1920.0
 offset_bottom = 72.0
 color = Color(0.15686275, 0.16862746, 0.1882353, 1)
