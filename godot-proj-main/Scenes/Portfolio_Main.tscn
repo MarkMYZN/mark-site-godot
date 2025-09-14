@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://de2rj6qs8x3l5"]
+[gd_scene load_steps=3 format=3 uid="uid://de2rj6qs8x3l5"]
 
-[ext_resource type="PackedScene" uid="uid://b2udm38wng8xg" path="res://Home_Main.tscn" id="1_lxxdc"]
+[ext_resource type="Script" uid="uid://d34to8sojp6ak" path="res://Scripts/main scene/portfolio_main.gd" id="1_j0scw"]
+[ext_resource type="PackedScene" uid="uid://b2udm38wng8xg" path="res://Scenes/Home_Main.tscn" id="1_lxxdc"]
 
 [node name="Portfolio Main" type="Node2D"]
+script = ExtResource("1_j0scw")
 
 [node name="Control" parent="." instance=ExtResource("1_lxxdc")]
 anchors_preset = -1
