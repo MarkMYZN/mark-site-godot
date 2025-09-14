@@ -34,13 +34,13 @@ corner_radius_bottom_left = 10
 font_size = 37
 
 [node name="Control" type="Control"]
-custom_minimum_size = Vector2(1920, 1080)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_vertical = 3
 
 [node name="ScrollContainer2" type="ScrollContainer" parent="."]
 clip_contents = false
@@ -189,5 +189,4 @@ label_settings = SubResource("LabelSettings_2pc01")
 autowrap_mode = 3
 
 [node name="Header" parent="." instance=ExtResource("3_arpcg")]
-custom_minimum_size = Vector2(1920, 72)
-layout_mode = 0
+layout_mode = 1
