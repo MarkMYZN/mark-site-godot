@@ -21,9 +21,9 @@ theme_override_styles/panel = ExtResource("1_tkm1l")
 layout_mode = 1
 anchors_preset = -1
 offset_left = 384.0
-offset_top = 88.0
+offset_top = 16.0
 offset_right = 1576.0
-offset_bottom = 160.0
+offset_bottom = 88.0
 theme_override_font_sizes/font_size = 50
 text = "Work Ethic & Learning Style"
 horizontal_alignment = 1
@@ -32,18 +32,18 @@ horizontal_alignment = 1
 layout_mode = 1
 anchors_preset = -1
 offset_left = 152.0
-offset_top = 176.0
+offset_top = 104.0
 offset_right = 1816.0
-offset_bottom = 1024.0
+offset_bottom = 960.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_7yxth")
 
 [node name="Label6" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 176.0
-offset_top = 184.0
+offset_top = 112.0
 offset_right = 1792.0
-offset_bottom = 991.0
+offset_bottom = 919.0
 theme_override_font_sizes/font_size = 50
 text = "I balance both introverted and extroverted traits in my work style. At first, I prefer observing and working independently, but as I grow more comfortable, I become an energetic and collaborative team member. As a visual and kinetic learner, I thrive on learning by observing, experimenting, and doing—constantly asking, “What if I tried this?”
 

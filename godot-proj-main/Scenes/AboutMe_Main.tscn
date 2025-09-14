@@ -28,11 +28,11 @@ size_flags_vertical = 3
 alignment = 1
 
 [node name="Aboutme1" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("1_6dq0r")]
-custom_minimum_size = Vector2(0, 1080)
+custom_minimum_size = Vector2(0, 704)
 layout_mode = 2
 
 [node name="Aboutme_2" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("2_arpcg")]
-custom_minimum_size = Vector2(0, 1080)
+custom_minimum_size = Vector2(0, 896)
 layout_mode = 2
 
 [node name="workethic" parent="ScrollContainer2/VBoxContainer" instance=ExtResource("2_847k5")]
