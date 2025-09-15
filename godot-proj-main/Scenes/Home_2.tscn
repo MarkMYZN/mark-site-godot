@@ -1,0 +1,90 @@
+[gd_scene load_steps=5 format=3 uid="uid://db70vp4mhbgm4"]
+
+[ext_resource type="StyleBox" uid="uid://d3sqyq54e13ik" path="res://Textures/bg.tres" id="1_08dlv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mx8p8"]
+bg_color = Color(0.11764706, 0.12941177, 0.14117648, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_08dlv"]
+bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k77cu"]
+bg_color = Color(0.25882354, 0.27058825, 0.28627452, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[node name="Home_2" type="Panel"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+theme_override_styles/panel = ExtResource("1_08dlv")
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 96.0
+offset_right = 1856.0
+offset_bottom = 104.0
+color = Color(0.15686275, 0.16862746, 0.1882353, 1)
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 608.0
+offset_top = 148.0
+offset_right = 1315.0
+offset_bottom = 217.0
+theme_override_font_sizes/font_size = 50
+text = "Projects I've been working on"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 256.0
+offset_right = 1848.0
+offset_bottom = 1080.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Item 1" type="Panel" parent="ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 255)
+layout_mode = 2
+
+[node name="Panel2" type="Panel" parent="ScrollContainer/VBoxContainer/Item 1"]
+layout_mode = 0
+offset_top = -24.0
+offset_right = 1664.0
+offset_bottom = 272.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_mx8p8")
+
+[node name="Panel" type="Panel" parent="ScrollContainer/VBoxContainer/Item 1"]
+layout_mode = 0
+offset_right = 1768.0
+offset_bottom = 256.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_08dlv")
+
+[node name="Panel3" type="Panel" parent="ScrollContainer/VBoxContainer/Item 1"]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 24.0
+offset_right = 384.0
+offset_bottom = 224.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_k77cu")
+
+[node name="Label3" type="Label" parent="ScrollContainer/VBoxContainer/Item 1"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 408.0
+offset_top = 96.0
+offset_right = 842.0
+offset_bottom = 165.0
+theme_override_font_sizes/font_size = 50
+text = "Personal Portfolio"
