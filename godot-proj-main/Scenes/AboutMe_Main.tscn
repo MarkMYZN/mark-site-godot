@@ -20,6 +20,12 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 2688.0
+theme_override_styles/panel = ExtResource("4_clnb8")
+
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 clip_contents = false
 layout_mode = 0
@@ -30,38 +36,38 @@ offset_bottom = 1080.0
 layout_mode = 2
 
 [node name="#1" type="Control" parent="ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1920, 1080)
+custom_minimum_size = Vector2(1920, 1024)
 layout_mode = 2
 
 [node name="Panel" type="Panel" parent="ScrollContainer/VBoxContainer/#1"]
 layout_mode = 0
 offset_right = 1920.0
-offset_bottom = 1152.0
+offset_bottom = 1024.0
 theme_override_styles/panel = ExtResource("4_clnb8")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/VBoxContainer/#1"]
 layout_mode = 0
 offset_left = 64.0
-offset_top = 256.0
+offset_top = 224.0
 offset_right = 1856.0
-offset_bottom = 960.0
+offset_bottom = 928.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_oil1c")
 
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/#1"]
 layout_mode = 0
 offset_left = 688.0
-offset_top = 128.0
+offset_top = 96.0
 offset_right = 1242.0
-offset_bottom = 252.0
+offset_bottom = 220.0
 text = "All About Me"
 label_settings = SubResource("LabelSettings_kb265")
 
 [node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer/#1"]
 layout_mode = 0
 offset_left = 128.0
-offset_top = 320.0
+offset_top = 288.0
 offset_right = 1792.0
-offset_bottom = 896.0
+offset_bottom = 864.0
 theme_override_font_sizes/font_size = 44
 text = "I’m a 20-year-old Computer Science student with a strong passion
 for problem-solving and programming.  I started with C/C++
@@ -74,29 +80,29 @@ Our Lady of Fatima University.  My long-term goal isto apply my skills as
 part of a cybersecurity team."
 
 [node name="#2" type="Control" parent="ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1920, 1080)
+custom_minimum_size = Vector2(1920, 764)
 layout_mode = 2
 
 [node name="Panel" type="Panel" parent="ScrollContainer/VBoxContainer/#2"]
 layout_mode = 0
 offset_right = 1920.0
-offset_bottom = 1156.0
+offset_bottom = 764.0
 theme_override_styles/panel = ExtResource("4_clnb8")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/VBoxContainer/#2"]
 layout_mode = 0
 offset_left = 64.0
-offset_top = 260.0
+offset_top = 100.0
 offset_right = 1856.0
-offset_bottom = 964.0
+offset_bottom = 700.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_oil1c")
 
 [node name="Label3" type="Label" parent="ScrollContainer/VBoxContainer/#2"]
 layout_mode = 0
 offset_left = 112.0
-offset_top = 324.0
+offset_top = 164.0
 offset_right = 1807.0
-offset_bottom = 900.0
+offset_bottom = 629.0
 theme_override_font_sizes/font_size = 35
 text = "I chose Computer Science because it is the best path toward my goal of joining a cybersecurity team.
 My passion for programming comes from a problem-solving mindset. I enjoy tackling challenges
@@ -111,37 +117,36 @@ fascination that drives my pursuit of technology and cybersecurity today."
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/#2"]
 layout_mode = 0
 offset_left = 368.0
-offset_top = 188.0
+offset_top = 28.0
 offset_right = 1556.0
-offset_bottom = 257.0
+offset_bottom = 97.0
 text = "Why i Chose Computer Science as my career path"
 label_settings = SubResource("LabelSettings_s8f2n")
 
 [node name="#3" type="Control" parent="ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1920, 1080)
+custom_minimum_size = Vector2(1920, 892)
 layout_mode = 2
 
 [node name="Panel" type="Panel" parent="ScrollContainer/VBoxContainer/#3"]
 layout_mode = 0
-offset_top = 32.0
 offset_right = 1920.0
-offset_bottom = 1112.0
+offset_bottom = 892.0
 theme_override_styles/panel = ExtResource("4_clnb8")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/VBoxContainer/#3"]
 layout_mode = 0
 offset_left = 64.0
-offset_top = 260.0
+offset_top = 104.0
 offset_right = 1856.0
-offset_bottom = 964.0
+offset_bottom = 828.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_oil1c")
 
 [node name="Label4" type="Label" parent="ScrollContainer/VBoxContainer/#3"]
 layout_mode = 0
 offset_left = 128.0
-offset_top = 328.0
+offset_top = 172.0
 offset_right = 1794.0
-offset_bottom = 910.0
+offset_bottom = 754.0
 theme_override_font_sizes/font_size = 30
 text = "I balance both introverted and extroverted traits in my work style.
 At first, I prefer observing and working independently, but as I grow more comfortable,
@@ -160,9 +165,9 @@ My mind can handle heavy workloads, but sometimes it needs a reset when things g
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/#3"]
 layout_mode = 0
 offset_left = 624.0
-offset_top = 188.0
+offset_top = 32.0
 offset_right = 1288.0
-offset_bottom = 257.0
+offset_bottom = 101.0
 text = "Work Ethic & Learning Style"
 label_settings = SubResource("LabelSettings_s8f2n")
 
