@@ -5,9 +5,13 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oil1c"]
 bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
 
 [sub_resource type="LabelSettings" id="LabelSettings_kb265"]
-font_size = 90
+font_size = 70
 
 [sub_resource type="LabelSettings" id="LabelSettings_s8f2n"]
 font_size = 50
@@ -55,10 +59,10 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_oil1c")
 
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/#1"]
 layout_mode = 0
-offset_left = 688.0
-offset_top = 96.0
-offset_right = 1242.0
-offset_bottom = 220.0
+offset_left = 744.0
+offset_top = 120.0
+offset_right = 1175.0
+offset_bottom = 216.0
 text = "All About Me"
 label_settings = SubResource("LabelSettings_kb265")
 
@@ -108,11 +112,10 @@ text = "I chose Computer Science because it is the best path toward my goal of j
 My passion for programming comes from a problem-solving mindset. I enjoy tackling challenges
 and exploring new possibilities, always asking: “What happens if I try this?”
 
-That curiosity started early. At 8 years old, I often tinkered with electronics,
-sometimes even breaking them, just to see how they worked. My interest also grew
-from movies and TV showsabout hackers navigating systems and databases.
-While I now know real hacking is less glamorous, those early impressions sparked the
-fascination that drives my pursuit of technology and cybersecurity today."
+That curiosity started early. At 8 years old, I often tinkered with electronics, sometimes even breaking
+them, just to see how they worked. My interest also grew from movies and TV showsabout hackers
+navigating systems and databases. While I now know real hacking is less glamorous, those early
+impressions sparked the fascination that drives my pursuit of technology and cybersecurity today."
 
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/#2"]
 layout_mode = 0
@@ -124,7 +127,7 @@ text = "Why i Chose Computer Science as my career path"
 label_settings = SubResource("LabelSettings_s8f2n")
 
 [node name="#3" type="Control" parent="ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1920, 892)
+custom_minimum_size = Vector2(1920, 956)
 layout_mode = 2
 
 [node name="Panel" type="Panel" parent="ScrollContainer/VBoxContainer/#3"]
@@ -148,18 +151,17 @@ offset_top = 172.0
 offset_right = 1794.0
 offset_bottom = 754.0
 theme_override_font_sizes/font_size = 30
-text = "I balance both introverted and extroverted traits in my work style.
-At first, I prefer observing and working independently, but as I grow more comfortable,
-I become an energetic and collaborative team member. As a visual and kinetic learner,
-I thrive on learning by observing, experimenting, and doing—constantly asking, “What if I tried this?”
+text = "I balance both introverted and extroverted traits in my work style. At first, I prefer observing and
+working independently, but as I grow more comfortable, I become an energetic and collaborative team member.
+As a visual and kinetic learner, I thrive on learning by observing, experimenting, and doing,constantly asking,
+“What if I tried this?”
 
-Collaboration is central to how I solve problems.
-I enjoy combining ideas—merging my perspective with those of others—to create stronger, well-rounded solutions.
-I value inclusivity and believe that when everyone feels heard, the outcome is better for the team as a whole.
+Collaboration is central to how I solve problems. I enjoy combining ideas, merging my
+perspective with those of others, to create stronger, well-rounded solutions. I value inclusivity and believe that
+when everyone feels heard, the outcome is better for the team as a whole.
 
-While I sometimes struggle to express my thoughts clearly and lack confidence in speaking up,
-I am actively working on improving my communication skills. I manage pressure well,
-though I need time to process sudden changes.
+While I sometimes struggle to express my thoughts clearly and lack confidence in speaking up, I am actively working
+on improving my communication skills. I manage pressure well, though I need time to process sudden changes.
 My mind can handle heavy workloads, but sometimes it needs a reset when things get overwhelming"
 
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/#3"]
@@ -170,17 +172,6 @@ offset_right = 1288.0
 offset_bottom = 101.0
 text = "Work Ethic & Learning Style"
 label_settings = SubResource("LabelSettings_s8f2n")
-
-[node name="#4" type="Control" parent="ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1920, 124)
-layout_mode = 2
-
-[node name="Panel" type="Panel" parent="ScrollContainer/VBoxContainer/#4"]
-custom_minimum_size = Vector2(0, 124)
-layout_mode = 0
-offset_right = 1920.0
-offset_bottom = 124.0
-theme_override_styles/panel = ExtResource("4_clnb8")
 
 [node name="Header" parent="." instance=ExtResource("3_arpcg")]
 layout_mode = 0
