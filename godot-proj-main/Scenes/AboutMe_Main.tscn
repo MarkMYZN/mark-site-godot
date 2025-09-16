@@ -127,7 +127,7 @@ text = "Why i Chose Computer Science as my career path"
 label_settings = SubResource("LabelSettings_s8f2n")
 
 [node name="#3" type="Control" parent="ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(1920, 956)
+custom_minimum_size = Vector2(1920, 1000)
 layout_mode = 2
 
 [node name="Panel" type="Panel" parent="ScrollContainer/VBoxContainer/#3"]
