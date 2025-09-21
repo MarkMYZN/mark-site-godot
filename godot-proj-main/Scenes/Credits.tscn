@@ -5,7 +5,13 @@
 [ext_resource type="Texture2D" uid="uid://bap5cay7uukdl" path="res://Textures/logos/gdscript.png" id="3_obosj"]
 [ext_resource type="Texture2D" uid="uid://c3otsytggp62f" path="res://Textures/logos/social logos/github.png" id="4_k2yj5"]
 [ext_resource type="Texture2D" uid="uid://bxm1ftsy4jlcc" path="res://Textures/logos/social logos/yt.png" id="5_f64u0"]
-[ext_resource type="Texture2D" uid="uid://udc0txg5ew0u" path="res://Textures/logos/social logos/chatgpt.png" id="6_lpub1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f64u0"]
+bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
 
 [node name="Panel2" type="Panel"]
 offset_right = 1920.0
@@ -14,34 +20,42 @@ theme_override_styles/panel = ExtResource("1_ynf4x")
 
 [node name="Header" parent="." instance=ExtResource("2_4qwwl")]
 layout_mode = 0
-anchors_preset = 0
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 64.0
+offset_top = 128.0
+offset_right = 1856.0
+offset_bottom = 1024.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_f64u0")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 192.0
-offset_top = 120.0
-offset_right = 1727.0
-offset_bottom = 223.0
-theme_override_font_sizes/font_size = 75
+offset_top = 176.0
+offset_right = 1419.0
+offset_bottom = 259.0
+theme_override_font_sizes/font_size = 50
 text = "Thank you for making this project happen:"
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 352.0
-offset_top = 256.0
+offset_top = 272.0
 offset_right = 609.0
-offset_bottom = 359.0
+offset_bottom = 375.0
 theme_override_font_sizes/font_size = 75
-text = "Godot"
+text = "Godot Game Engine"
 
 [node name="TextureButton" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 192.0
-offset_top = 240.0
+offset_top = 256.0
 offset_right = 320.0
-offset_bottom = 368.0
+offset_bottom = 384.0
 texture_normal = ExtResource("3_obosj")
 ignore_texture_size = true
 stretch_mode = 4
@@ -50,108 +64,38 @@ stretch_mode = 4
 layout_mode = 1
 anchors_preset = -1
 offset_left = 352.0
-offset_top = 400.0
+offset_top = 416.0
 offset_right = 609.0
-offset_bottom = 503.0
+offset_bottom = 519.0
 theme_override_font_sizes/font_size = 75
 text = "Github"
 
 [node name="TextureButton2" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 192.0
-offset_top = 384.0
-offset_right = 320.0
-offset_bottom = 512.0
-texture_normal = ExtResource("4_k2yj5")
-ignore_texture_size = true
-stretch_mode = 4
-
-[node name="Label5" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-offset_left = 352.0
-offset_top = 256.0
-offset_right = 609.0
-offset_bottom = 359.0
-theme_override_font_sizes/font_size = 75
-text = "Godot"
-
-[node name="TextureButton3" type="TextureButton" parent="."]
-layout_mode = 0
-offset_left = 192.0
-offset_top = 240.0
-offset_right = 320.0
-offset_bottom = 368.0
-texture_normal = ExtResource("3_obosj")
-ignore_texture_size = true
-stretch_mode = 4
-
-[node name="Label6" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-offset_left = 352.0
 offset_top = 400.0
-offset_right = 609.0
-offset_bottom = 503.0
-theme_override_font_sizes/font_size = 75
-text = "Github"
-
-[node name="TextureButton4" type="TextureButton" parent="."]
-layout_mode = 0
-offset_left = 192.0
-offset_top = 384.0
 offset_right = 320.0
-offset_bottom = 512.0
+offset_bottom = 528.0
 texture_normal = ExtResource("4_k2yj5")
 ignore_texture_size = true
 stretch_mode = 4
-
-[node name="Label4" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-offset_left = 192.0
-offset_top = 552.0
-offset_right = 1727.0
-offset_bottom = 655.0
-theme_override_font_sizes/font_size = 75
-text = "With the assistance of these services:"
 
 [node name="Label7" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 352.0
-offset_top = 688.0
-offset_right = 609.0
-offset_bottom = 791.0
+offset_top = 560.0
+offset_right = 657.0
+offset_bottom = 663.0
 theme_override_font_sizes/font_size = 75
 text = "Youtube"
 
 [node name="TextureButton5" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 192.0
-offset_top = 672.0
+offset_top = 544.0
 offset_right = 320.0
-offset_bottom = 800.0
+offset_bottom = 672.0
 texture_normal = ExtResource("5_f64u0")
-ignore_texture_size = true
-stretch_mode = 4
-
-[node name="Label8" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-offset_left = 352.0
-offset_top = 832.0
-offset_right = 609.0
-offset_bottom = 935.0
-theme_override_font_sizes/font_size = 75
-text = "ChatGPT"
-
-[node name="TextureButton6" type="TextureButton" parent="."]
-layout_mode = 0
-offset_left = 192.0
-offset_top = 816.0
-offset_right = 320.0
-offset_bottom = 944.0
-texture_normal = ExtResource("6_lpub1")
 ignore_texture_size = true
 stretch_mode = 4

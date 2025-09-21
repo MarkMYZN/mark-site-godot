@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://df6qakjsxkxwu"]
 
-[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Header.tscn" id="2_vaah8"]
+[ext_resource type="PackedScene" uid="uid://cwya083v47fem" path="res://Scenes/Header.tscn" id="2_vaah8"]
 [ext_resource type="Texture2D" uid="uid://1a8p3vbg04dl" path="res://Textures/logos/c-c++.png" id="2_y8w2t"]
 [ext_resource type="Texture2D" uid="uid://bap5cay7uukdl" path="res://Textures/logos/gdscript.png" id="3_w8g1e"]
 [ext_resource type="Texture2D" uid="uid://j2jvjdex48tn" path="res://Textures/logos/react.png" id="4_yqqqr"]
@@ -15,13 +15,6 @@ content_margin_right = 0.0
 content_margin_bottom = 0.0
 bg_color = Color(0.11764706, 0.12941177, 0.14117648, 1)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_siv4g"]
-bg_color = Color(0.27387273, 0.27387276, 0.27387264, 1)
-corner_radius_top_left = 50
-corner_radius_top_right = 50
-corner_radius_bottom_right = 50
-corner_radius_bottom_left = 50
-
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pkkdd"]
 bg_color = Color(0.15686275, 0.16862746, 0.1882353, 1)
 corner_radius_top_left = 10
@@ -29,34 +22,17 @@ corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_siv4g"]
+bg_color = Color(0.27387273, 0.27387276, 0.27387264, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
 [node name="Home_1" type="Panel"]
-anchors_preset = -1
 offset_right = 1920.0
 offset_bottom = 1080.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_uspb2")
-
-[node name="Label3" type="Label" parent="."]
-layout_mode = 0
-offset_left = 904.0
-offset_top = 96.0
-offset_right = 1026.0
-offset_bottom = 165.0
-theme_override_font_sizes/font_size = 50
-text = "Skills"
-horizontal_alignment = 1
-
-[node name="Panel2" type="Panel" parent="."]
-layout_mode = 1
-anchors_preset = -1
-offset_left = 64.0
-offset_top = 176.0
-offset_right = 1856.0
-offset_bottom = 184.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
-
-[node name="Header" parent="." instance=ExtResource("2_vaah8")]
-layout_mode = 0
-anchors_preset = 0
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 layout_mode = 1
@@ -71,7 +47,7 @@ offset_right = -64.0
 clip_contents = true
 layout_mode = 2
 size_flags_horizontal = 6
-columns = 3
+columns = 4
 
 [node name="Control" type="Control" parent="ScrollContainer/GridContainer"]
 custom_minimum_size = Vector2(390, 500)
@@ -80,16 +56,18 @@ layout_mode = 2
 [node name="Panel" type="Panel" parent="ScrollContainer/GridContainer/Control"]
 layout_mode = 1
 anchors_preset = -1
-offset_right = 384.0
-offset_bottom = 496.0
+offset_left = 22.0
+offset_top = 32.0
+offset_right = 366.0
+offset_bottom = 464.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_pkkdd")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/GridContainer/Control"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 24.0
+offset_left = 46.0
 offset_top = 368.0
-offset_right = 366.0
+offset_right = 342.0
 offset_bottom = 376.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
 
@@ -120,24 +98,26 @@ layout_mode = 2
 [node name="Panel" type="Panel" parent="ScrollContainer/GridContainer/Control2"]
 layout_mode = 1
 anchors_preset = -1
-offset_right = 384.0
-offset_bottom = 496.0
+offset_left = 22.0
+offset_top = 32.0
+offset_right = 366.0
+offset_bottom = 464.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_pkkdd")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/GridContainer/Control2"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 24.0
+offset_left = 46.0
 offset_top = 368.0
-offset_right = 366.0
+offset_right = 342.0
 offset_bottom = 376.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
 
 [node name="Label4" type="Label" parent="ScrollContainer/GridContainer/Control2"]
 layout_mode = 0
-offset_left = 46.0
+offset_left = 44.0
 offset_top = 384.0
-offset_right = 342.0
+offset_right = 340.0
 offset_bottom = 456.0
 theme_override_font_sizes/font_size = 50
 text = "GDScript"
@@ -146,9 +126,9 @@ horizontal_alignment = 1
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/GridContainer/Control2"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 0
-offset_left = 67.0
+offset_left = 65.0
 offset_top = 64.0
-offset_right = 323.0
+offset_right = 321.0
 offset_bottom = 320.0
 texture = ExtResource("3_w8g1e")
 expand_mode = 1
@@ -160,24 +140,26 @@ layout_mode = 2
 [node name="Panel" type="Panel" parent="ScrollContainer/GridContainer/Control3"]
 layout_mode = 1
 anchors_preset = -1
-offset_right = 384.0
-offset_bottom = 496.0
+offset_left = 22.0
+offset_top = 32.0
+offset_right = 366.0
+offset_bottom = 464.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_pkkdd")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/GridContainer/Control3"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 24.0
+offset_left = 46.0
 offset_top = 368.0
-offset_right = 366.0
+offset_right = 342.0
 offset_bottom = 376.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
 
 [node name="Label4" type="Label" parent="ScrollContainer/GridContainer/Control3"]
 layout_mode = 0
-offset_left = 46.0
+offset_left = 44.0
 offset_top = 384.0
-offset_right = 342.0
+offset_right = 340.0
 offset_bottom = 456.0
 theme_override_font_sizes/font_size = 50
 text = "React"
@@ -186,9 +168,9 @@ horizontal_alignment = 1
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/GridContainer/Control3"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 0
-offset_left = 67.0
+offset_left = 65.0
 offset_top = 64.0
-offset_right = 323.0
+offset_right = 321.0
 offset_bottom = 320.0
 texture = ExtResource("4_yqqqr")
 expand_mode = 1
@@ -200,24 +182,26 @@ layout_mode = 2
 [node name="Panel" type="Panel" parent="ScrollContainer/GridContainer/Control4"]
 layout_mode = 1
 anchors_preset = -1
-offset_right = 384.0
-offset_bottom = 496.0
+offset_left = 22.0
+offset_top = 32.0
+offset_right = 366.0
+offset_bottom = 464.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_pkkdd")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/GridContainer/Control4"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 24.0
+offset_left = 46.0
 offset_top = 368.0
-offset_right = 366.0
+offset_right = 342.0
 offset_bottom = 376.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
 
 [node name="Label4" type="Label" parent="ScrollContainer/GridContainer/Control4"]
 layout_mode = 0
-offset_left = 46.0
+offset_left = 44.0
 offset_top = 384.0
-offset_right = 342.0
+offset_right = 340.0
 offset_bottom = 456.0
 theme_override_font_sizes/font_size = 50
 text = "Python"
@@ -226,9 +210,9 @@ horizontal_alignment = 1
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/GridContainer/Control4"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 0
-offset_left = 67.0
+offset_left = 65.0
 offset_top = 64.0
-offset_right = 323.0
+offset_right = 321.0
 offset_bottom = 320.0
 texture = ExtResource("5_5h74q")
 expand_mode = 1
@@ -240,25 +224,26 @@ layout_mode = 2
 [node name="Panel" type="Panel" parent="ScrollContainer/GridContainer/Control5"]
 layout_mode = 1
 anchors_preset = -1
-offset_right = 384.0
-offset_bottom = 496.0
+offset_left = 22.0
+offset_right = 366.0
+offset_bottom = 432.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_pkkdd")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/GridContainer/Control5"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 24.0
-offset_top = 368.0
-offset_right = 366.0
-offset_bottom = 376.0
+offset_left = 46.0
+offset_top = 328.0
+offset_right = 342.0
+offset_bottom = 336.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
 
 [node name="Label4" type="Label" parent="ScrollContainer/GridContainer/Control5"]
 layout_mode = 0
-offset_left = 46.0
-offset_top = 384.0
-offset_right = 342.0
-offset_bottom = 456.0
+offset_left = 44.0
+offset_top = 344.0
+offset_right = 340.0
+offset_bottom = 416.0
 theme_override_font_sizes/font_size = 50
 text = "HTML/CSS"
 horizontal_alignment = 1
@@ -266,10 +251,10 @@ horizontal_alignment = 1
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/GridContainer/Control5"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 0
-offset_left = 67.0
-offset_top = 64.0
-offset_right = 323.0
-offset_bottom = 320.0
+offset_left = 65.0
+offset_top = 24.0
+offset_right = 321.0
+offset_bottom = 280.0
 texture = ExtResource("6_qn3h8")
 expand_mode = 1
 stretch_mode = 5
@@ -281,25 +266,26 @@ layout_mode = 2
 [node name="Panel" type="Panel" parent="ScrollContainer/GridContainer/Control6"]
 layout_mode = 1
 anchors_preset = -1
-offset_right = 384.0
-offset_bottom = 496.0
+offset_left = 22.0
+offset_right = 366.0
+offset_bottom = 432.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_pkkdd")
 
 [node name="Panel2" type="Panel" parent="ScrollContainer/GridContainer/Control6"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 24.0
-offset_top = 368.0
-offset_right = 366.0
-offset_bottom = 376.0
+offset_left = 46.0
+offset_top = 328.0
+offset_right = 342.0
+offset_bottom = 336.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
 
 [node name="Label4" type="Label" parent="ScrollContainer/GridContainer/Control6"]
 layout_mode = 0
-offset_left = 46.0
-offset_top = 384.0
-offset_right = 342.0
-offset_bottom = 456.0
+offset_left = 44.0
+offset_top = 344.0
+offset_right = 340.0
+offset_bottom = 416.0
 theme_override_font_sizes/font_size = 50
 text = "Java"
 horizontal_alignment = 1
@@ -307,10 +293,32 @@ horizontal_alignment = 1
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/GridContainer/Control6"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 0
-offset_left = 67.0
-offset_top = 64.0
-offset_right = 323.0
-offset_bottom = 320.0
+offset_left = 65.0
+offset_top = 24.0
+offset_right = 321.0
+offset_bottom = 280.0
 texture = ExtResource("7_oalkk")
 expand_mode = 1
 stretch_mode = 6
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 904.0
+offset_top = 88.0
+offset_right = 1026.0
+offset_bottom = 157.0
+theme_override_font_sizes/font_size = 50
+text = "Skills"
+horizontal_alignment = 1
+
+[node name="Panel2" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 64.0
+offset_top = 152.0
+offset_right = 1856.0
+offset_bottom = 160.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_siv4g")
+
+[node name="Header" parent="." instance=ExtResource("2_vaah8")]
+layout_mode = 0
